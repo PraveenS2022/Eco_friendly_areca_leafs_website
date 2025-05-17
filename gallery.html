@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - SUKEEVEGEE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="loho.png" alt="Sukeevegee Logo">
+                <h1>SUKEEVEGEE <span>ARECA LEAF PLATES</span></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="gallery.html" class="active">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h2>Our Gallery</h2>
+            <p>See our products, manufacturing process, and facility</p>
+        </div>
+    </section>
+
+    <section class="gallery">
+        <div class="container">
+            <div class="gallery-tabs">
+                <button class="gallery-tab active" data-category="all">All</button>
+                <button class="gallery-tab" data-category="products">Products</button>
+                <button class="gallery-tab" data-category="factory">Factory</button>
+                <button class="gallery-tab" data-category="process">Process</button>
+            </div>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="products">
+                    <img src="12inch.jpg" alt="12 Inch Rectangle Plate">
+                    <div class="overlay">
+                        <h3>12" Rectangle Plate</h3>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="products">
+                    <img src="wmremove-transformed.jpeg" alt="8 Inch Square Plate">
+                    <div class="overlay">
+                        <h3>8" Square Plate</h3>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="products">
+                    <img src="WhatsApp Image 2025-05-07 at 20.22.44_40d265cf.jpg" alt="5 Inch Bowl">
+                    <div class="overlay">
+                        <h3>5" Bowl</h3>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="factory">
+                    <img src="machines.avif" alt="Manufacturing Machine">
+                    <div class="overlay">
+                        <h3>Production Machine</h3>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="process">
+                    <img src="leafs.jpg" alt="Raw Areca Leaves">
+                    <div class="overlay">
+                        <h3>Raw Materials</h3>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="process">
+                    <img src="machines.avif" alt="Pressing Process">
+                    <div class="overlay">
+                        <h3>Pressing Process</h3>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="factory">
+                    <img src="teamworkers1.jpg" alt="Our Team">
+                    <div class="overlay">
+                        <h3>Our Team</h3>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="products">
+                    <img src="packing.jpg" alt="Product Packaging">
+                    <div class="overlay">
+                        <h3>Packaging</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="lightbox">
+        <div class="lightbox-content">
+            <span class="close-btn">&times;</span>
+            <img src="" alt="" class="lightbox-image">
+            <div class="lightbox-caption"></div>
+            <div class="lightbox-nav">
+                <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <!-- Same footer as index.html -->
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
