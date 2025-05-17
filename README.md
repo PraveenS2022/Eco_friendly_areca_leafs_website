@@ -1,7 +1,7 @@
 # Eco_friendly_areca_leafs_website
-• Developed a responsive business website using HTML, CSS, and JavaScript
-• Implemented product filtering and contact form with email API integration
-• Designed interactive gallery with lightbox feature
+Developed a responsive business website using HTML, CSS, and JavaScript
+Implemented product filtering and contact form with email API integration
+Designed interactive gallery with lightbox feature
 
 ![Screenshot 2025-05-13 003515](https://github.com/user-attachments/assets/f254e525-b518-4099-9cd4-1cd6371c032f)
 ![Screenshot 2025-05-13 003556](https://github.com/user-attachments/assets/f648a3a9-1f5a-4144-a2ab-9c1e52167994)
